@@ -22,14 +22,17 @@
 
 @implementation SNRoundedCell
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
-    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+{
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier])
+    {
         [self setupViews];
     }
     return self;
 }
 
-- (void)setupViews {
+- (void)setupViews
+{
     
     self.avatarImageView = [[UIImageView alloc] init];
     self.avatarImageView.sn_roundCornerColor = [UIColor whiteColor];
@@ -63,7 +66,8 @@
     }
 }
 
-- (void)reloadDataWithUrl:(NSString *)imageUrl name:(NSString *)name {
+- (void)reloadDataWithUrl:(NSString *)imageUrl name:(NSString *)name
+{
     [self.avatarImageView sd_setImageWithURL:[NSURL URLWithString:imageUrl]];
     self.nameLabel.text = name;
 }

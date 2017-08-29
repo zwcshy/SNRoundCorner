@@ -17,8 +17,8 @@
 		CE802E401F54F5E50072455E /* snRoundCornerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE802E3F1F54F5E50072455E /* snRoundCornerUITests.m */; };
 		CE802E4F1F54F6060072455E /* UIView+SNRoundCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = CE802E4E1F54F6060072455E /* UIView+SNRoundCorner.m */; };
 		CE802E551F54F9080072455E /* SNRoundedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE802E541F54F9080072455E /* SNRoundedCell.m */; };
-		CE802E5B1F54FC6F0072455E /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE802E571F54FC6F0072455E /* YYFPSLabel.m */; };
-		CE802E5C1F54FC6F0072455E /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE802E591F54FC6F0072455E /* YYWeakProxy.m */; };
+		CE802E621F55032F0072455E /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE802E5F1F55032F0072455E /* YYFPSLabel.m */; };
+		CE802E631F55032F0072455E /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE802E611F55032F0072455E /* YYWeakProxy.m */; };
 		CFBEDF6EBB3BB5B6EE8A8DF7 /* libPods-snRoundCorner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4159CFA2CE7DA69551002301 /* libPods-snRoundCorner.a */; };
 /* End PBXBuildFile section */
 
@@ -63,10 +63,10 @@
 		CE802E4E1F54F6060072455E /* UIView+SNRoundCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SNRoundCorner.m"; sourceTree = "<group>"; };
 		CE802E531F54F9080072455E /* SNRoundedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNRoundedCell.h; sourceTree = "<group>"; };
 		CE802E541F54F9080072455E /* SNRoundedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNRoundedCell.m; sourceTree = "<group>"; };
-		CE802E561F54FC6F0072455E /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
-		CE802E571F54FC6F0072455E /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
-		CE802E581F54FC6F0072455E /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
-		CE802E591F54FC6F0072455E /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		CE802E5E1F55032F0072455E /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		CE802E5F1F55032F0072455E /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		CE802E601F55032F0072455E /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		CE802E611F55032F0072455E /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 		CE802E0E1F54F5E50072455E = {
 			isa = PBXGroup;
 			children = (
-				CE802E5A1F54FC6F0072455E /* YYFPSLabel */,
+				CE802E5D1F55032F0072455E /* YYFPSLabel */,
 				CE802E191F54F5E50072455E /* snRoundCorner */,
 				CE802E331F54F5E50072455E /* snRoundCornerTests */,
 				CE802E3E1F54F5E50072455E /* snRoundCornerUITests */,
@@ -181,16 +181,15 @@
 			path = snRoundCornerUITests;
 			sourceTree = "<group>";
 		};
-		CE802E5A1F54FC6F0072455E /* YYFPSLabel */ = {
+		CE802E5D1F55032F0072455E /* YYFPSLabel */ = {
 			isa = PBXGroup;
 			children = (
-				CE802E561F54FC6F0072455E /* YYFPSLabel.h */,
-				CE802E571F54FC6F0072455E /* YYFPSLabel.m */,
-				CE802E581F54FC6F0072455E /* YYWeakProxy.h */,
-				CE802E591F54FC6F0072455E /* YYWeakProxy.m */,
+				CE802E5E1F55032F0072455E /* YYFPSLabel.h */,
+				CE802E5F1F55032F0072455E /* YYFPSLabel.m */,
+				CE802E601F55032F0072455E /* YYWeakProxy.h */,
+				CE802E611F55032F0072455E /* YYWeakProxy.m */,
 			);
-			name = YYFPSLabel;
-			path = "../../Documents/iOS 优秀资料/UIView添加圆角半径/PlayCornerRadius/YYFPSLabel";
+			path = YYFPSLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,8 +379,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE802E5B1F54FC6F0072455E /* YYFPSLabel.m in Sources */,
-				CE802E5C1F54FC6F0072455E /* YYWeakProxy.m in Sources */,
+				CE802E621F55032F0072455E /* YYFPSLabel.m in Sources */,
+				CE802E631F55032F0072455E /* YYWeakProxy.m in Sources */,
 				CE802E221F54F5E50072455E /* ViewController.m in Sources */,
 				CE802E1F1F54F5E50072455E /* AppDelegate.m in Sources */,
 				CE802E1C1F54F5E50072455E /* main.m in Sources */,

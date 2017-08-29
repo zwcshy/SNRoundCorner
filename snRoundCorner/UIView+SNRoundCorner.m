@@ -1,9 +1,9 @@
 //
 //  UIView+SNRoundCorner.m
-//  SnobMass
+//  snRoundCorner
 //
-//  Created by 绝影 on 16/8/2.
-//  Copyright © 2016年 卷瓜. All rights reserved.
+//  Created by 周文超 on 2017/8/29.
+//  Copyright © 2017年 超超. All rights reserved.
 //
 
 #import "UIView+SNRoundCorner.h"

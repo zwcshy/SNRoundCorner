@@ -16,7 +16,8 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     
     UITableView *tableView = [UITableView new];
@@ -32,11 +33,13 @@
     });
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
     return 100;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
     
     SNRoundedCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([SNRoundedCell class])];
     [cell reloadDataWithUrl:[NSString stringWithFormat:@"https://oepjvpu5g.qnssl.com/avatar%@.jpg", @(indexPath.row % 20)]
